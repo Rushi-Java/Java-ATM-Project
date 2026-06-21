@@ -12,6 +12,9 @@ public class Calculator {
         double num2 = sc.nextDouble();
         
         System.out.println("Jod: " + (num1 + num2));
+        // Ghatav - Day 3
+double minus = num1 - num2;
+System.out.println("Ghatav: " + minus);
         sc.close();
     }
 }
