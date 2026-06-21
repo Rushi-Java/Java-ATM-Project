@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Calculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Pehla number daal: ");
+        double num1 = input.nextDouble();
+        
+        System.out.print("Dusra number daal: ");
+        double num2 = input.nextDouble();
+        
+        // Jod
+        double sum = num1 + num2;
+        System.out.println("Jod = " + sum);
+        
+        // Ghatav - Day 3
+        double minus = num1 - num2;
+        System.out.println("Ghatav = " + minus);
+        
+        input.close();
+    }
+}
