@@ -15,6 +15,8 @@ public class Calculator {
         // Ghatav - Day 3
 double minus = num1 - num2;
 System.out.println("Ghatav: " + minus);
+ double multiply = num1 * num2;
+System.out.println("Guna: " + multiply);
         sc.close();
     }
 }
