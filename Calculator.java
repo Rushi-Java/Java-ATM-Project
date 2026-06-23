@@ -17,6 +17,8 @@ double minus = num1 - num2;
 System.out.println("Ghatav: " + minus);
  double multiply = num1 * num2;
 System.out.println("Guna: " + multiply);
+      double divide = num1 / num2;
+System.out.println("Bhag: " + divide); 
         sc.close();
     }
 }
